@@ -8,3 +8,5 @@ String.prototype.filterwords = function ( filterwords) {
        return newsource.join(" ");
     });
 }
+
+console.log("This house is nice".filterwords(["house","nice"]));

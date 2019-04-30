@@ -1,4 +1,6 @@
+importScripts()
 
+import {from} from rxjs;
 
 const replace = function(source,filterwords) {
     let newsource =  source.map(w => filterwords.includes(w) ? "***" : w);
