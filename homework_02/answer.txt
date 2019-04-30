@@ -1,0 +1,3 @@
+1. setImmediate will be fired on check phase, setTimeout will be fired Timers phase of Event loop .
+2. process.nextTick will be processed between 2 phase of Event loop
+3. request, http, filesystem,  OS, net, stream, buffer, events, socket, process, global, process
