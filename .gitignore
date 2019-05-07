@@ -11,6 +11,7 @@
 /client/package-lock.json
 /client/public/lib
 /homework_*/node_modules
+/homework_*/exercise*/node_modules
 # IDEs and editors
 /.idea
 .project
