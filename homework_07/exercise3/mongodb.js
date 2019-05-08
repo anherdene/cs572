@@ -8,7 +8,7 @@ function mongodb() {
             if (err) throw err;
             const collection = client.db("data").collection("course");
             if (collection) {
-                req.dbcollection = collection;
+                req.mongodb = collection;
                 next()
             }
             else console.error();
