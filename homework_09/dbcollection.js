@@ -6,7 +6,7 @@ function dbcollection() {
     return function (req, resp, next) {
         client.connect(err => {
             if (err) throw err;
-            const collection = client.db("ass9").collection("zipcode");
+            const collection = client.db("ass9").collection("zips");
             if (collection) {
                 req.dbcollection = collection;
                 next()
